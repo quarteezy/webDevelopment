@@ -1,0 +1,105 @@
+<html>
+<head>
+    <title>My Cart</title>
+    <link rel="stylesheet" href="carts.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+
+<body>
+
+<div class="wrap">
+    <header>
+        <nav>
+            <div class="logo"><a href="home.html"><img src="pics/logo.png"></a></div>
+            <!-- <div class="topsearch"></div> -->
+        <div class="search_wrap search_wrap_1">
+            <div class="search_box">
+                <div class="btn btn_common">
+                    <i class="fas fa-search"></i>
+                </div>
+                <input type="text" class="input" placeholder="Search...">
+            </div>
+        </div>
+            <div class="menu">
+                <ul>
+                    <li><a class="links" href="home.html">HOME</a></li>
+                    <li><a class="links" href="consoles.html">CONSOLES</a></li>
+                    <li><a class="links" href="smartphones.html">SMARTPHONE</a></li>
+                    <li><a class="links" href="pc.html">PC</a></li>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Account
+                            <span style="padding: 0.5em;"><i class="fas fa-angle-down"></i></span>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Profile</a>
+                          <a href="product.html">My Products</a>
+                          <a href="update.html">Update Product</a>
+                          <a href="customer.html">Cust Transaction</a>
+                          <a href="cart.html">My Cart</a>
+                          <a href="login.html">Logout</a>
+                        </div>
+                    </div>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+
+        <div class="right-content">
+            <div class="first-column">
+                <div class="spec-title"><p>MY CART</p></div>
+            </div>
+
+
+            <div class="second-column">
+                <table class="content-table">
+                    <tbody>
+                        <tr>
+                            <td><h3>Product Image</h3></td>
+                            <td><h3>Product Name</h3></td>
+                            <td><h3>Quantity</h3></td>
+                            <td><h3>Product Price</h3></td>
+                            </tr>
+
+                            <tr>
+                            <td ><img src="pics/smolRez/i13.png"></td>
+                            <td>iPhone 13</td>
+                            <td >13 PCS</td>
+                            <td>$1300 USD/PC</td>
+                            </tr>
+
+                            <tr>
+                            <td ><img src="pics/smolRez/3080.png"></td>
+                            <td>NVIDIA GeForce RTX 3080 Ti</td>
+                            <td >10 PCS</td>
+                            <td>$2000 USD/PC</td>
+                        </tr>
+                    </tbody>
+                  </table>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="wrap">
+    <div class="cart">
+        <table class="tabol">
+            <tr>
+                    <form action  ="checkout.html">
+                    <button class="cartbtn" >Check Out</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+</body>
+
+</html>

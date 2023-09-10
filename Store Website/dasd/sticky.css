@@ -1,0 +1,402 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    height: 100vh;
+    background: url(pics/bg1.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content
+{
+    position:absolute;
+    background-color:rgb(240, 228, 212, .9);
+    display: block;
+    width: 1300px;  
+    min-height: 53.3vh;
+    position: absolute;
+    left: 50%;
+    top: 33%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.right-content p
+{
+    padding-right: 50;
+    float: right;
+    display: block;
+    width: 40ch;
+}
+
+.logo
+{
+    display: inline-block;
+    float: left;
+    margin: 16px 36px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logo a img
+{
+    position: absolute;
+    top: 7;
+    padding-left: 500;
+    height: 19x;
+    width: 55px;
+}
+
+.wrap 
+{
+    width: 1880px;
+}
+
+header
+{
+    background-color:rgb(177, 121, 70);
+    position: relative;
+    width: 102.1%;
+    height: 6.3vh;
+} 
+
+nav
+{
+    position: relative;
+    flex-shrink: 0;
+}
+
+
+.topsearch 
+{
+    display: inline-block;
+    height: 33px;
+    width: 345px;
+    top: 9px;
+    left: 56px;
+}
+
+nav ul
+{
+    float: right;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: white;
+    padding-right: 500;
+    text-align: center;
+    margin: 0;
+    transition: 1s; 
+}
+
+nav.black ul
+{
+    background: #000;
+}
+
+
+nav ul li
+{
+    display: inline-block;
+    padding-left: 0px;
+    padding-top: 20px;
+}
+
+nav ul li a 
+{
+    left: 100%;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-family: bebas neue;
+    text-transform: uppercase;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+    letter-spacing: 2px;
+}
+
+/* nav, input */
+/* { */
+    /* border: 0; */
+    /* outline: none; */
+    /* font-family: bebas neue; */
+/* } */
+
+.links
+{
+}
+
+.search_wrap
+{
+    position: absolute;
+    top: 0;
+    padding-top: 1;
+    padding-left: 780;
+}
+/* Dito mo iadjust tong search */
+
+.search_wrap .search_box
+{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+}
+
+.search_wrap .search_box .input
+{
+    position:absolute;
+    border: 0;
+    outline: none;
+    top: 14;
+    width: 150;
+    height: 30;
+    font-family: Roboto;
+    font-size: 1rem;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.search_wrap .search_box .btn
+{
+    position: absolute;
+    top: 14;
+    right: 50;
+    width: 30;
+    height: 30;
+    background:rgb(119, 148, 66);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.search_wrap .search_box .btn:hover
+{
+    background: rgb(150, 194, 93);
+}
+
+.search_wrap .search_box .btn.btn_common .fas
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: fff;
+    font-size: 1rem;
+}
+
+.search_wrap.search_wrap_1 .search_box .btn
+{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.search_wrap.search_wrap_1 .search_box .input
+{
+    padding-left: 5;
+    padding-right: 35px;
+}
+
+.left-content
+{
+    position: absolute;
+    width: 400px;
+    min-height: 100%;
+    max-height: 100%;
+    background-color: #151618;
+}
+
+.boxTop 
+{
+    margin: 5px;
+    position: relative;
+    max-height: 250px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #F0E4D4;
+    text-align: center;
+}
+
+.newew 
+{
+    background-color: #F0E4D4;
+}
+
+.boxBot
+{
+    margin: 5px;
+    position: relative;
+    max-height: 250px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #F0E4D4;
+    text-align: justify;
+    z-index: 1;
+}
+
+.box-title
+{
+    position: absolute;
+    background-color:rgb(177, 121, 70);
+    width: 100%;
+    height: 3.3vh;
+    text-align: center;
+    z-index: 1;
+} 
+
+.box-title > p
+{
+    position: relative;
+    display: inline;
+    font-family: ROBOTO;
+}
+
+.lenk
+{
+    position: relative;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.right-content
+{
+    position: absolute;
+    width: 900px;  
+    min-height: 100%;
+    background-color: #F0E4D4;
+    right: 0rem;
+}
+
+.first-column
+{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 5px;
+    min-height: 250px;
+}
+
+.first-col-right
+{
+    width: 535px;
+}
+
+.first-col-left
+{
+    width: 355px;
+}
+
+.first-col-left > article 
+{
+    height: 125px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.first-col-left > article > header
+{
+    position: absolute;
+    width: 100%;
+    left: 5px;
+    bottom: 0px;
+    padding-top: 30px;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.first-col-left > article > header > h3
+{
+    position: relative;
+    display: inline;
+    background: url(pics/diag.png);
+    padding: 1px 5px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+}
+
+.first-col-right > article 
+{
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.first-col-right > article > header
+{
+    position: absolute;
+    width: 100%;
+    left: 5px;
+    bottom: 10px;
+    padding-top: 30px;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.first-col-right > article > header > h1
+{
+    position: relative;
+    display: inline;
+    background: url(diag.png);
+    padding: 1px 5px;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+}
+
+.item-image
+{
+    position: absolute;
+    width: 101%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.second-column
+{
+    top: 5px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 250px;
+    background: yellowgreen;
+    justify-content: space-between;
+}
+
+
+
+.new-items-image img
+{
+    position: relative;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+
+
+
+
+
